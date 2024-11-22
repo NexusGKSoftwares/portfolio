@@ -1,33 +1,38 @@
-name: Deploy to GitHub Pages
+name: Deploy Portfolio
 
 on:
   push:
     branches:
-      - main   # Trigger deployment when changes are pushed to the main branch
+      - main  # Change this to your default branch, e.g., 'main' or 'master'
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # The job runs on an Ubuntu virtual machine
-    
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2   # Checks out your repository code
-        
+      # Step to check out the code from the repo
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step to set up Node.js (add the version you're using)
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Set the Node.js version you want to use
+          node-version: '16'  # Change this to the version of Node.js you're using
 
+      # Step to install dependencies
       - name: Install dependencies
         run: |
-          npm install  # Install project dependencies
+          npm install
+          npm install --save-dev @babel/plugin-proposal-private-property-in-object
+          npm install @emotion/react
 
-      - name: Build project
-        run: |
-          npm run build  # Build the React app for production
+      # Step to build the app
+      - name: Build the app
+        run: npm run build
 
+      # Step to deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages   # The branch to deploy to
-          folder: build      # Folder containing the production build
+        run: npm run deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
