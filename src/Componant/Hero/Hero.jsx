@@ -25,13 +25,13 @@ export  function Hero() {
             <div className={`${Style.aboutMe}`}>
             <h1 className=' fw-bolder my-5'>Software, Website, App & Game Developer  </h1>
             <p>🚀 Hi, I'm <span className='px-2 py-1 rounded-4 cursor-pointer'>Gideon Bett</span>🚀 —passionate about coding and innovation.</p>
-                🌱 Always learning and growing, embracing new challenges.
-                🔥 Turning bugs 🐛 into breakthroughs 💡 and ideas into reality.
-                ❤️ Coding isn't just a skill—it's a lifestyle I love.
-                🌐 Exploring infinite possibilities in the tech world 🌌.
-                💻 Focused on clean, efficient, and impactful code.
-                🌟 Striving to create solutions that make a difference ✨.
-                🔧 From debugging 🛠️ to deployment 🚢, I'm all in.
+                <p>🌱 Always learning and growing, embracing new challenges.</p>
+                <p>🔥 Turning bugs 🐛 into breakthroughs 💡 and ideas into reality.</p>
+                <p>❤️ Coding isn't just a skill—it's a lifestyle I love.</p>
+                <p>🌐 Exploring infinite possibilities in the tech world 🌌.</p>
+                <p>💻 Focused on clean, efficient, and impactful code.</p>
+                <p>🌟 Striving to create solutions that make a difference ✨.</p>
+                <p>🔧 From debugging 🛠️ to deployment 🚢, I'm all in.</p>
           </div>
 
           <div className={`${Style.socialIcons} mt-5 d-flex justify-content-center`}>
