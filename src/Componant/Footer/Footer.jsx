@@ -16,7 +16,7 @@ export  function Footer() {
     </ul>
       </div>
 <div className='col-md-5'>
-<p  className='fs-6 text-center'>© 2024 Mina Medhat RT. All rights reserved.</p>
+<p  className='fs-6 text-center'>© 2024 NexusGK__Softwares. All rights reserved.</p>
 </div>
 
     </div>
