@@ -32,7 +32,7 @@ export  function Header() {
         <Link className={`${Style.linkStyle} nav-link`} to="Mina-Portfolio">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className={`${Style.linkStyle} nav-link`} to="/skills">skills</Link>
+          <Link className={`${Style.linkStyle} nav-link`} to="/skills">Skills</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle} nav-link`} to="/main">Projects</Link>
@@ -41,7 +41,7 @@ export  function Header() {
           <Link className={`${Style.linkStyle} nav-link`} to="/resume">Resume</Link>
         </li>
         <li className="nav-item just">
-          <Link className={`${Style.linkStyle} nav-link`} to="contactus">ContactUs</Link>
+          <Link className={`${Style.linkStyle} nav-link`} to="contactus">Contact Us</Link>
         </li>
       </ul>
 
@@ -94,7 +94,7 @@ export  function Header() {
           <Link className={`${Style.linkStyle} nav-link`}  to="/resume" onClick={()=>{setShowUl(false)}}>Resume</Link>
         </li>
         <li className="nav-item">
-          <Link className={`${Style.linkStyle}  nav-link`} to="contactus" onClick={()=>{setShowUl(false)}}>ContactUs</Link>
+          <Link className={`${Style.linkStyle}  nav-link`} to="contactus" onClick={()=>{setShowUl(false)}}>Contact Us</Link>
         </li>
       </ul>
 
