@@ -29,7 +29,7 @@ export  function Header() {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 px-4 rounded-5">
         <li className="nav-item">
-        <Link className={`${Style.linkStyle} nav-link`} to="Mina-Portfolio">Home</Link>
+        <Link className={`${Style.linkStyle} nav-link`} to="Gideon-Portfolio">Home</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle} nav-link`} to="/skills">Skills</Link>
@@ -82,7 +82,7 @@ export  function Header() {
           <i className={` ${Style.linkStyle}  cursor-pointer   fa-solid fa-x`}></i>
         </li>
         <li className="nav-item">
-        <Link className={`${Style.linkStyle} nav-link`} to="Mina-Portfolio" onClick={()=>{setShowUl(false)}}>Home</Link>
+        <Link className={`${Style.linkStyle} nav-link`} to="Gideon-Portfolio" onClick={()=>{setShowUl(false)}}>Home</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle}   nav-link`}  to="/skills" onClick={()=>{setShowUl(false)}}>Skills</Link>

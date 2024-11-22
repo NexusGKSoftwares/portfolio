@@ -17,20 +17,35 @@ export default function Skills() {
         <i className=' fs-2 ms-2 fa fa-solid fa-database'></i>
         </h1>
         <Slide  direction='left' duration={1000}>
-        <div>
-            <div className='d-flex justify-content-between mt-4 align-item-center'>
-            <h2 className='h4'>Frontend React.JS Deploma </h2>
-            <p>Oct 2023 - Mar 2024</p>
-            </div>
-            <p className={`${Style.childPar}`}>Route Academy</p>
-        </div>
 
         <div>
             <div className='d-flex justify-content-between mt-4 align-item-center'>
-            <h2 className='h4'>Frontend  Deploma (Without Framework) </h2>
-            <p>Aug 2019- Nov 2019</p>
+            <h2 className='h4'>Advanced Website Development Course  </h2>
+            <p>Aug 2024- Nov 2024</p>
             </div>
-            <p className={`${Style.childPar}`}>NewHorizon Academy</p>
+            <p className={`${Style.childPar}`}>Emobilis Training Institute</p>
+        </div>
+        <div>
+            <div className='d-flex justify-content-between mt-4 align-item-center'>
+            <h2 className='h4'>Software Engineering Course </h2>
+            <p>Jan 2024- Jun 2024</p>
+            </div>
+            <p className={`${Style.childPar}`}>FreecodeCamp Academy</p>
+        </div>
+        <div>
+            <div className='d-flex justify-content-between mt-4 align-item-center'>
+            <h2 className='h4'>Full Stack Developement </h2>
+            <p>Dec 2021 - Dec 2023</p>
+            </div>
+            <p className={`${Style.childPar}`}>Harvard University</p>
+        </div>
+        
+        <div>
+            <div className='d-flex justify-content-between mt-4 align-item-center'>
+            <h2 className='h4'>Microsoft Packages </h2>
+            <p>Aug 2019- Nov 2020</p>
+            </div>
+            <p className={`${Style.childPar}`}>St. Joseph Boys Kitale</p>
         </div>
         </Slide>
     </div>
@@ -73,11 +88,23 @@ export default function Skills() {
           <i class="fa-brands fa-s display-4    my-3 "></i>
             </div>
 
-            <h3 className='h4 text-center '>TyprScript</h3>
+            <h3 className='h4 text-center '>TypeScript</h3>
           </div>
           <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
-          <i class="fa-brands fa-sass display-2  d-flex justify-content-center my-3 "></i>
-            <h3 className='h3 text-center '>SASS</h3>
+          <i class="fa-brands fa-python display-2  d-flex justify-content-center my-3 "></i>
+            <h3 className='h3 text-center '>Python</h3>
+          </div>
+          <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
+          <i class="fa-brands fa-php display-2  d-flex justify-content-center my-3 "></i>
+            <h3 className='h3 text-center '>Php</h3>
+          </div>
+          <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
+          <i class="fa-brands fa-c display-2  d-flex justify-content-center my-3 "></i>
+            <h3 className='h3 text-center '>C++</h3>
+          </div>
+          <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
+          <i class="fa-brands fa-android display-2  d-flex justify-content-center my-3 "></i>
+            <h3 className='h3 text-center '>Kotlin</h3>
           </div>
           <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
           <i class="fa-brands fa-github display-2  d-flex justify-content-center my-3 "></i>
@@ -92,8 +119,8 @@ export default function Skills() {
             <h3 className='h3 text-center '>React.JS</h3>
           </div>
           <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
-          <i class=" fa-brands fa-battle-net display-2  d-flex justify-content-center my-3 "></i>
-            <h3 className='h3 text-center '>Redux</h3>
+          <i class=" fa-brands fa-swift display-2  d-flex justify-content-center my-3 "></i>
+            <h3 className='h3 text-center '>Swift</h3>
           </div>
           <div className={`${Style.iconItem} col-md-2 ms-md-4 mt-4 cursor-pointer  rounded-3 `}>
           <i class="fa-solid fa-n display-2  d-flex justify-content-center my-3 "></i>
