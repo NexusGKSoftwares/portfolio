@@ -23,10 +23,15 @@ export  function Hero() {
             </div>
             <Slide  direction='left' duration={1000}>
             <div className={`${Style.aboutMe}`}>
-            <h1 className=' fw-bolder my-5'>Frontend React.Js Developer </h1>
-            <p >Hi, My name is <span className='px-2 py-1 rounded-4 cursor-pointer'>Mina Medhat Rizkalla</span> . I work as a Software Engineer and specialize in React, and Front-End Web Development, I thrive on learning
-and teamwork, dedicated to staying updated on industry advancements and emerging technologies to improve
-skills and deliver innovative solutions consistently.</p>
+            <h1 className=' fw-bolder my-5'>Software, Website, App & Game Developer  </h1>
+            <p>🚀 Hi, I'm <span className='px-2 py-1 rounded-4 cursor-pointer'>Gideon Bett</span>🚀 —passionate about coding and innovation.</p>
+                🌱 Always learning and growing, embracing new challenges.
+                🔥 Turning bugs 🐛 into breakthroughs 💡 and ideas into reality.
+                ❤️ Coding isn't just a skill—it's a lifestyle I love.
+                🌐 Exploring infinite possibilities in the tech world 🌌.
+                💻 Focused on clean, efficient, and impactful code.
+                🌟 Striving to create solutions that make a difference ✨.
+                🔧 From debugging 🛠️ to deployment 🚢, I'm all in.
           </div>
 
           <div className={`${Style.socialIcons} mt-5 d-flex justify-content-center`}>
